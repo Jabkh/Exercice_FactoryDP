@@ -3,6 +3,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        Restaurant ramen = new Restaurant(new JapaneseCuisineFactory(new JapaneseDish()));
+        Restaurant Ramen = new Restaurant(new JapaneseCuisineFactory());
+        Restaurant Taco = new Restaurant(new MexicanCuisineFactory());
+        Restaurant Tiramisu = new Restaurant(new ItalianCuisineFactory());
     }
 }
